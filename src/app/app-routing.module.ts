@@ -14,7 +14,6 @@ const routes: Routes = [
   { path: 'orders', component: OrdersComponent },
   { path: 'checkout', component: CheckoutsummaryComponent },
 ];
-
 @NgModule({
   declarations: [],
   imports: [

@@ -10,8 +10,6 @@ import { Ingredient } from '../../../shared/ingredient.model';
 })
 export class OrdersComponent implements OnInit {
   public orders: any = [];
-  // public orders: Observable<any>;
-
 
   constructor(
     private orderService: OrderService,
@@ -35,5 +33,4 @@ export class OrdersComponent implements OnInit {
     objectValues(obj) {
       return Object.values(obj);
     }
-
 }

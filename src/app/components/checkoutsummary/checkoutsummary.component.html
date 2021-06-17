@@ -5,10 +5,7 @@
         <div class="seeds"></div>
         <div class="seeds2"></div>
       </div>
-
-      <!-- <p *ngIf="addedIngredients.length === 0">Please start adding ingredients!</p> -->
       <app-burger-ingredient *ngFor="let ingredient of orderIngredients;" type="{{ingredient}}"></app-burger-ingredient>
-
       <div class="bread-bottom"></div>
     </div>
   </div>

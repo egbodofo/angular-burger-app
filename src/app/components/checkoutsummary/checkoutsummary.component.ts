@@ -4,9 +4,6 @@ import { NgForm } from '@angular/forms';
 import { HttpClient } from '@angular/common/http';
 import { Router } from '@angular/router';
 import { OrderService } from '../orders/list/order.service';
-
-
-
 @Component({
   selector: 'app-checkoutsummary',
   templateUrl: './checkoutsummary.component.html',

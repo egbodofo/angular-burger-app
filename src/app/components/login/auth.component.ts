@@ -11,8 +11,6 @@ import { Observable, Subscription } from 'rxjs';
 import { AuthService, AuthResponseData } from './auth.service';
 import { AlertComponent } from '../../shared/alert/alert.component';
 import { PlaceholderDirective } from '../../shared/placeholder/placeholder.directive';
-
-
 @Component({
   selector: 'app-auth',
   templateUrl: './auth.component.html',
@@ -93,6 +91,4 @@ export class AuthComponent implements OnDestroy {
       hostViewContainerRef.clear();
     });
   }
-
-
 }

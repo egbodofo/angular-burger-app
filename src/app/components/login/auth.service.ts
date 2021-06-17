@@ -6,7 +6,6 @@ import { throwError, BehaviorSubject } from 'rxjs';
 import { environment } from '../../../environments/environment';
 
 import { User } from './user.model';
-
 export interface AuthResponseData {
   kind: string;
   idToken: string;
@@ -16,7 +15,6 @@ export interface AuthResponseData {
   localId: string;
   registered?: boolean;
 }
-
 @Injectable({ providedIn: 'root' })
 export class AuthService {
   user = new BehaviorSubject<User>(null);

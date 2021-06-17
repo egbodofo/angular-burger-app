@@ -1,5 +1,4 @@
 import { Component, OnInit, Input, OnChanges } from '@angular/core';
-
 @Component({
   selector: 'app-order-summary',
   templateUrl: './order-summary.component.html'

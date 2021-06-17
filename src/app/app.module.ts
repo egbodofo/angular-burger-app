@@ -13,7 +13,6 @@ import { OrdersComponent } from './components/orders/list/orders.component';
 import { SharedModule } from './shared/shared.module';
 import { HttpClientModule } from '@angular/common/http';
 import { CheckoutsummaryComponent } from './components/checkoutsummary/checkoutsummary.component';
-
 @NgModule({
   declarations: [
     AppComponent,
